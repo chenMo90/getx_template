@@ -1,3 +1,23 @@
+# 这里是自己的
+## 插件安装
+```shell
+chmod +x ./gradlew
+# 这个执行完成会出现一个zip包(build/distributions/getx_template-3.5.2.zip)，然后插件导入安装
+./gradlew buildPlugin
+```
+## 安装
+```shell
+Preferences / Settings → Plugins → ⚙️ (右上角齿轮) → Install Plugin from Disk...
+```
+## 插件开发
+```shell
+chmod +x ./gradlew
+# 每次改完修改代码都需要执行这个
+./gradlew runIde
+```
+
+
+# 下面是官方的
 [![plugin](https://img.shields.io/badge/jetbrain-plugin-red)](https://plugins.jetbrains.com/plugin/15919-getx) [![stars](https://img.shields.io/github/stars/xdd666t/getx_template?logo=github)](https://github.com/CNAD666/getx_template) [![issues](https://img.shields.io/github/issues/xdd666t/getx_template?logo=github)](https://github.com/xdd666t/getx_template/issues) [![commit](https://img.shields.io/github/last-commit/xdd666t/getx_template?logo=github)](https://github.com/xdd666t/getx_template/commits) [![release](https://img.shields.io/github/v/release/xdd666t/getx_template)](https://github.com/xdd666t/getx_template/releases)
 
 Language: English | [中文（详细讲解）](https://juejin.cn/post/7005003323753365517)
