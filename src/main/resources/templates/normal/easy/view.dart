@@ -3,13 +3,13 @@ import 'package:get/get.dart';
 
 import 'logic.dart';
 
-class @namePage extends StatelessWidget {
-  @namePage({Key? key}) : super(key: key);
-
-  final @nameLogic logic = Get.put(@nameLogic());
+class @namePage extends GetView<@nameController> {
+  const @namePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Container(),
+    );
   }
 }
