@@ -125,7 +125,7 @@ class NewGetXAction : AnAction() {
             } else {
                 "binding_4.dart"
             }
-            generateFile(inputFileName, path, "${prefixName}binding.dart")
+            generateFile(inputFileName, path, "${prefixName}bindings.dart")
         }
     }
 
