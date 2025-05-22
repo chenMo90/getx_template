@@ -5,7 +5,7 @@ import 'logic.dart';
 import 'state.dart';
 
 class @namePage extends GetView<@nameController> {
-const @namePage({super.key});
+  const @namePage({super.key});
 
   @override
   Widget build(BuildContext context) {
